@@ -1,2 +1,1 @@
-# calcolatrice
-calcolatrice + cambio colore sfondo
+questo sito effettua la somma, sottrazione, divisione e moltiplicazione di due numeri inseriti dall'utente nei form di input appositi, accetta sia numeri interi che decimali, stamperà a video l'espressione (es. 1+1=2). presenta due pulsanti, uno per cambiare casualmente il colore dello sfondo e uno per cambiarlo in base a quale colore è stato scelto nel color pickler alla sua sinistra
