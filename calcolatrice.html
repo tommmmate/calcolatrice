@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>calcolatrice</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <form>
+            <input type="number" name="n1" id="n1" placeholder="primo numero"/>
+            <input type="number" name="n2" id="n2" placeholder="secondo numero">
+        </form>
+        <br><br>
+        <button id="somma">
+            somma
+        </button>
+        <button id="sottrazione">
+            sottrazione
+        </button>
+        <button id="divisione">
+            divisione
+        </button>
+        <button id="moltiplicazione">
+            moltiplicazione
+        </button>
+
+        <!-- risultato mostrato -->
+        <p id="risultato">  </p>
+
+        <!-- cambio colore casuale -->
+        <button id="sus"> colore casuale </button>
+        <br><br>
+
+        <!-- cambio colore a scelta -->
+        <input type="color" id="input"/>
+        <button onclick="changecolor()" id="sas"> colore a scelta </button>
+
+
+        <script src="calcolatrice.js"> </script>
+
+
+    </body>
+</html>
